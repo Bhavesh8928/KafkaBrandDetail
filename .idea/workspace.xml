@@ -5,46 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df9c3ec-418c-4ab4-b93f-4f763f37a6fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/DeliveryBoy.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/config/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/controller/CustomerBrandDetailsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/dto/CustomerBrandDetailsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/entity/CustomerBrandDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/repository/CustomerBrandDetailsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/service/CustomerBrandDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/DeliveryBoyApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/config/AppConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/config/KafkaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/controller/Count.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/controller/LocationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/service/KafkaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/test/java/com/DeliveryBoy/DeliveryBoyApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/src/main/java/com/EndUser/EndUserApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/src/main/java/com/EndUser/config/AppConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/src/main/java/com/EndUser/config/KafkaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/src/main/java/com/EndUser/service/CountService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndUser/src/test/java/com/EndUser/EndUserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/DeliveryBoy.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/DeliveryBoy.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/controller/CustomerBrandDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/controller/CustomerBrandDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/service/CustomerBrandDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/service/CustomerBrandDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/service/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/DeliveryBoy/src/main/java/com/DeliveryBoy/service/KafkaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +67,7 @@
     &quot;Gradle.EndUser [:com.EndUser.EndUserApplication.main()].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;other__changes&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
@@ -111,7 +77,7 @@
       <recent name="com.DeliveryBoy.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeliveryBoyApplication">
+  <component name="RunManager" selected="Application.EndUserApplication">
     <configuration name="DeliveryBoyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DeliveryBoy.DeliveryBoyApplication" />
       <module name="DeliveryBoy.main" />

@@ -3,6 +3,7 @@ package com.DeliveryBoy.controller;
 import com.DeliveryBoy.dto.CustomerBrandDetailsDTO;
 import com.DeliveryBoy.service.CustomerBrandDetailsService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +15,22 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CustomerBrandDetailsController {
 
+//    @Autowired
+//    private CustomerBrandDetailsService service;
     private final CustomerBrandDetailsService service;
+
+    @PostMapping("/generate-custom-design-async")
+    public ResponseEntity<String> generateCustomDesignAsync(@RequestParam Long brandId) {
+        // Perform business logic asynchronously
+        service.generateCustomDesignAsync(brandId);
+        return ResponseEntity.ok("Custom design generation initiated for Brand ID: " + brandId);
+    }
+
+    @PostMapping("/data")
+    public ResponseEntity<String> generateDummyData () {
+        service.insertDummyData();
+        return ResponseEntity.ok("Data created successfully");
+    }
 
     @PostMapping
     public ResponseEntity<CustomerBrandDetailsDTO> createCustomerBrandDetails(@RequestBody CustomerBrandDetailsDTO dto) {
